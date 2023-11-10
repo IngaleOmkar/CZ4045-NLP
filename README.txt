@@ -1,5 +1,5 @@
 ## Part 1. Sequence Tagging: NER
-Part 1 was ran without the use of a GPU
+Part 1 was run without the use of a GPU
 
 # Question 1.1
 The output provides us with the words that are most similar to “student”, “Apple” and “apple” followed by their cosine similarity.
