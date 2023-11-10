@@ -1,3 +1,7 @@
+## Instructions to run the code:
+- Create a virtual env 
+- install all the dependencies from the requirements.txt file
+
 ## Part 1. Sequence Tagging: NER
 Part 1 was run without the use of a GPU
 
@@ -22,6 +26,9 @@ Here, we ran the model using the f1 score to stop the model from training. We pr
 
 ## Part 2. Sentence-Level Categorization: Question Classification
 Part 2 REQUIRES the use of a GPU. We recommend running it in Google Colab using the T4 GPU. This is because we try to find optimal hyperparameter values through bruteforce. 
+- To run part 2, please download the data and save it in a folder titled 'data' in the same directory as the jupyter notebooks. 
+- There are ONLY 2 FILES OF IMPORTANCE: NLP_LSTM.ipynb and NLP_RNN.ipynb. Our team found LSTM to be more effective hence, that is our main model. Code for RNN is provided for documentation purposes.
+- Other notebooks in this directory were meant for preliminary testing 
 
 # Question 2a
 The output of this part should show the 2 classes that occur at the lowest frequency. These classes are then merged and a new label is assigned to this merged class.
